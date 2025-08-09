@@ -20,11 +20,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zᴇᴅᴢᴇ ✘")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Testmusicbot001")
 
 # Your User ID.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5301800943").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5301800943").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6840435225").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6840435225").split()))
 
 # Fill your group and channel username (without @)
 # If your group and channel is private then fill like this:-  +GepTJkDUaiA5NmRl  , except (https://t.me/)
@@ -38,15 +38,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 # For customized or modified Repository
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/team-katil/zedzemusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Nagi2308/Knightsxbots/blob/main/README.md")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/katil_bots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/katilsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/KnightsXbots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Knightxbotsupport")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "5000"))
@@ -120,17 +120,17 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/07b109ac650e5f4fec9e5.jpg",
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/1dca3157eb1d637846d87.jpg"
-GLOBAL_IMG_URL = "https://telegra.ph/file/7dc2e0a1277c1dd43b40e.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/99b282829d8e877a099a6.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/29c8494278f990e910893.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/3df34a720f2d6d08f57c9.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/f6fcad691d6948d7a89af.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/61ecec3d3f8d1123998db.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/ae2ce86d990c42710c52c.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/7bc63654994a5d41bddf5.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/d68695ad86852583f1ce4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/ade24dc9e43fbe5f73a04.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/vvvlte.jpg"
+GLOBAL_IMG_URL = "https://files.catbox.moe/vvvlte.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/vvvlte.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/g1x308.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/g1x308.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/g1x308.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/g1x308.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/g1x308.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/g1x308.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/g1x308.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/g1x308.jpg"
 
 
 def time_to_seconds(time):
